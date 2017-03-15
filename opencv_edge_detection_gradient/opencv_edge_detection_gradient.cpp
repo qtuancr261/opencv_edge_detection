@@ -77,7 +77,7 @@ void detectEdge(const Mat& input_img, vector<vector<float>>& gradX, vector<vecto
 			selectThreshold_outputImg(gradient, output_img);
 			break;
 
-		case 4: break;
+		default: break;
 		}
 	//}
 
