@@ -52,8 +52,6 @@ void selectThreshold_outputImg(Mat& gradient, Mat& output_img)
 void detectEdge(const Mat& input_img, vector<vector<float>>& gradX, vector<vector<float>>& gradY,Mat& gradient, Mat& output_img)
 {
 	int modeName{};
-	//while (modeName != 5)
-	//{
 		cout << "HAY CHON CHE DO TINH GRADIENT" << endl;
 		cout << "\t1. Tinh Gradient vector" << endl;
 		cout << "\t2. Tinh Gradient theo Sobel Kernel" << endl;
@@ -78,8 +76,6 @@ void detectEdge(const Mat& input_img, vector<vector<float>>& gradX, vector<vecto
 
 		default: break;
 		}
-	//}
-
 }
 int main(int argc, char* argv[])
 {
