@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_edge_detection_gradient", "opencv_edge_detection_gradient\opencv_edge_detection_gradient.vcxproj", "{912ADF2E-5D6C-4307-9649-D20D348DEF68}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_laplace_zeroCrossing", "opencv_laplace_zeroCrossing\opencv_laplace_zeroCrossing.vcxproj", "{A857DAC8-0A7F-4956-BDF0-009B56E88A8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{912ADF2E-5D6C-4307-9649-D20D348DEF68}.Release|x64.Build.0 = Release|x64
 		{912ADF2E-5D6C-4307-9649-D20D348DEF68}.Release|x86.ActiveCfg = Release|Win32
 		{912ADF2E-5D6C-4307-9649-D20D348DEF68}.Release|x86.Build.0 = Release|Win32
+		{A857DAC8-0A7F-4956-BDF0-009B56E88A8C}.Debug|x64.ActiveCfg = Debug|x64
+		{A857DAC8-0A7F-4956-BDF0-009B56E88A8C}.Debug|x64.Build.0 = Debug|x64
+		{A857DAC8-0A7F-4956-BDF0-009B56E88A8C}.Debug|x86.ActiveCfg = Debug|Win32
+		{A857DAC8-0A7F-4956-BDF0-009B56E88A8C}.Debug|x86.Build.0 = Debug|Win32
+		{A857DAC8-0A7F-4956-BDF0-009B56E88A8C}.Release|x64.ActiveCfg = Release|x64
+		{A857DAC8-0A7F-4956-BDF0-009B56E88A8C}.Release|x64.Build.0 = Release|x64
+		{A857DAC8-0A7F-4956-BDF0-009B56E88A8C}.Release|x86.ActiveCfg = Release|Win32
+		{A857DAC8-0A7F-4956-BDF0-009B56E88A8C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

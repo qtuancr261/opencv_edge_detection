@@ -9,7 +9,6 @@ using namespace std;
 using namespace cv;
 const vector<vector<float>> SobelKernel{ { -1.0f, 0, 1.0f },{ -2.0f, 0, 2.0f },{-1.0f, 0, 1.0f}  } ;
 const vector<vector<float>> PrewittKernel{ { -1.0f, 0, 1.0f },{ -2.0f, 0, 2.0f },{ -1.0f, 0, 1.0f } };
-
 void calculateGradient(const Mat& input_img, vector<vector<float>>& gradX, vector<vector<float>>& gradY, Mat& gradient,const vector<vector<float>>& kernel)
 {
 	int halfSize = kernel.size() / 2;
@@ -53,7 +52,7 @@ void selectThreshold_outputImg(Mat& gradient, Mat& output_img)
 void detectEdge(const Mat& input_img, vector<vector<float>>& gradX, vector<vector<float>>& gradY,Mat& gradient, Mat& output_img)
 {
 	int modeName{};
-	//while (modeName != 4)
+	//while (modeName != 5)
 	//{
 		cout << "HAY CHON CHE DO TINH GRADIENT" << endl;
 		cout << "\t1. Tinh Gradient vector" << endl;
