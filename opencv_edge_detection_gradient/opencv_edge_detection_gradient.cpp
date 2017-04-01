@@ -16,8 +16,8 @@ void calculateGradient(const Mat& input_img, vector<vector<float>>& gradX, vecto
 		for (int j{ halfSize }; j < input_img.cols - halfSize; j++)
 		{
 			gradX[i][j] = gradY[i][j] = 0;
-			for (int x = { -halfSize }; x <= halfSize; x++)
-				for (int y = { -halfSize }; y <= halfSize; y++)
+			for (int x { -halfSize }; x <= halfSize; x++)
+				for (int y { -halfSize }; y <= halfSize; y++)
 				{
 					gradX[i][j] += input_img.at<float>(i + x, j + y)*kernel[x + halfSize][y + halfSize];
 					gradY[i][j] += input_img.at<float>(i + x, j + y)*kernel[y + halfSize][x + halfSize];
