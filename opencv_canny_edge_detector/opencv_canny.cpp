@@ -18,7 +18,8 @@ int main(int argc, char* argv[])
 	Mat Canny_output;
 	int lowerThreshold{ 80 }, upperThreshold{ 180 }, kernelSize{ 3 };
 	Canny(input_img, Canny_output, lowerThreshold, upperThreshold, kernelSize);
-	imshow("Laplacian", Canny_output);
+	imshow(argv[1], input_img);
+	imshow("Canny", Canny_output);
 	waitKey();
 	return 0;
 }

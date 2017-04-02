@@ -21,6 +21,7 @@ int main(int argc, char* argv[])
 	//minMaxLoc(Laplace_Mat_f, &laplaceMinValue, &laplaceMaxValue);
 	Laplace_Mat_f.convertTo(Laplace_Mat, CV_8U);
 	//namedWindow("Laplacian", WINDOW_AUTOSIZE);
+	imshow(argv[1], input_img);
 	imshow("Laplacian", Laplace_Mat);
 	waitKey();
 	return 0;
